@@ -27,8 +27,8 @@ public class Disco extends Publicacion{
 
     @Override
     public String toString() {
-        return "Disco{" +
-                "duracionMinutos=" + duracionMinutos + " " + super.toString() +
-                '}';
+        return "Disco [ " +
+                "duracionMinutos = " + duracionMinutos + " " + super.toString() +
+                ']';
     }
 }
